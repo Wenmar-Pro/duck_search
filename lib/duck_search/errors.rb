@@ -12,4 +12,6 @@ module DuckSearch
   end
 
   class ParseError < Error; end
+
+  class BotError < Error; end
 end

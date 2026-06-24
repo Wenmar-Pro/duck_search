@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://html.duckduckgo.com/html?b=&k1=-1&kf=-1&kh=1&kp=1&q=xylophone_zebra_quantum_1234567890
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0
+        Safari/537.36
+      Dnt:
+      - '1'
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Language:
+      - en-US,en;q=0.5
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 24 Jun 2026 02:41:53 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Origin
+      Server-Timing:
+      - total;dur=557;desc="Backend Total [n]"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Robots-Tag:
+      - noindex
+      Permissions-Policy:
+      - interest-cohort=()
+      Content-Security-Policy:
+      - 'default-src ''none'' ; connect-src  https://duck.ai https://*.duck.ai https://duckduckgo.com
+        https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
+        https://spreadprivacy.com ; manifest-src  https://duck.ai https://*.duck.ai
+        https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
+        https://spreadprivacy.com ; media-src  https://duck.ai https://*.duck.ai https://duckduckgo.com
+        https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
+        https://spreadprivacy.com ; script-src blob:  https://duck.ai https://*.duck.ai
+        https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
+        https://spreadprivacy.com ; font-src data:  https://duck.ai https://*.duck.ai
+        https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
+        https://spreadprivacy.com ; img-src data:  https://duck.ai https://*.duck.ai
+        https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
+        https://spreadprivacy.com ; style-src  https://duck.ai https://*.duck.ai https://duckduckgo.com
+        https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
+        https://spreadprivacy.com ; object-src ''none'' ; worker-src blob: ; child-src
+        blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com
+        https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com
+        ; frame-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com
+        https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
+        https://spreadprivacy.com ; frame-ancestors ''self'' ; base-uri ''self'' ;
+        block-all-mixed-content ;'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1;mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin
+      Expect-Ct:
+      - max-age=0
+      Expires:
+      - Wed, 24 Jun 2026 02:41:54 GMT
+      Cache-Control:
+      - max-age=1
+      X-Duckduckgo-Locale:
+      - en_US
+    body:
+      encoding: UTF-8
+      string: "<html><body></body></html>"
+  recorded_at: Wed, 24 Jun 2026 02:45:16 GMT
+recorded_with: VCR 6.4.0
